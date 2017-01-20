@@ -16,18 +16,14 @@
  
     int year = 1;
     
-    float inputMoney = 1;
+    float inputMoney = 1.5;
     
-    float inputMoneyFirst = 0;
+    float inputMoneyFirst = 60;
     float result = 0.0;
     for (int i = 0; i < 30; i++) {
-        result = [self personAnnuityDynamicYear:year stopInputYear:10  rate:0.15 inputMoney:inputMoney inputMoneyFirst:inputMoneyFirst];
+        result = [self personAnnuityDynamicYear:year stopInputYear:5 rate:0.17 inputMoney:inputMoney inputMoneyFirst:inputMoneyFirst];
         year++;
-   
     }
-    
-    
-    
 }
 
 
@@ -74,9 +70,9 @@
         if (i <= stopyear * 12) {
             inputMoney += inputMoneyMonth;
         }
-        if (i > (stopyear + 1) * 12) {
-            inputMoney -= 0.8;
-        }
+//        if (i > (stopyear) * 12) {
+//            inputMoney -= 0.8 ;
+//        }
         inputMoney= inputMoney * ( 1 + (rate / 12));
         
 //        NSString * result = [NSString stringWithFormat:@"year = %d,MoneyMonth = %0.2f,rate = %0.1f%@,sum = %0.3f",year,inputMoneyMonth,rate * 100,@"%",inputMoney];
@@ -84,8 +80,8 @@
         
     }
     NSString * result = [NSString stringWithFormat:@"year = %d,MoneyMonth = %0.2f,rate = %0.1f%@,sum = %0.3f",year,inputMoneyMonth,rate * 100,@"%",inputMoney];
-    NSLog(@"%@",result);
-    
+//    NSLog(@"%@",result);
+    printf("%s\n",[result UTF8String]);
     return inputMoney;
     
 }
