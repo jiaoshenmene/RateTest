@@ -18,7 +18,7 @@
     
     float inputMoney = 1.5;
     
-    float inputMoneyFirst = 60;
+    float inputMoneyFirst = 120;
     float result = 0.0;
     for (int i = 0; i < 30; i++) {
         result = [self personAnnuityDynamicYear:year stopInputYear:5 rate:0.17 inputMoney:inputMoney inputMoneyFirst:inputMoneyFirst];

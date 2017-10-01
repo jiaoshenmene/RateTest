@@ -12,7 +12,6 @@
 		6536193C1B032E6800D79F4A /* BuilderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536193B1B032E6800D79F4A /* BuilderManager.m */; };
 		6536193F1B03348700D79F4A /* AnnuityBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536193E1B03348700D79F4A /* AnnuityBuilder.m */; };
 		656CEB5C1B395FC0009C58CB /* NewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 656CEB5B1B395FC0009C58CB /* NewBuilder.m */; };
-		657B4B0C1B0754E1006DB318 /* AnnuityTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657B4B0B1B0754E1006DB318 /* AnnuityTableView.m */; };
 		65E276481AFE491F008651A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E276471AFE491F008651A9 /* main.m */; };
 		65E2764B1AFE491F008651A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E2764A1AFE491F008651A9 /* AppDelegate.m */; };
 		65E2764E1AFE491F008651A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E2764D1AFE491F008651A9 /* ViewController.m */; };
@@ -44,8 +43,6 @@
 		6536193E1B03348700D79F4A /* AnnuityBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnuityBuilder.m; sourceTree = "<group>"; };
 		656CEB5A1B395FC0009C58CB /* NewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBuilder.h; sourceTree = "<group>"; };
 		656CEB5B1B395FC0009C58CB /* NewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBuilder.m; sourceTree = "<group>"; };
-		657B4B0A1B0754E1006DB318 /* AnnuityTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnuityTableView.h; sourceTree = "<group>"; };
-		657B4B0B1B0754E1006DB318 /* AnnuityTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnuityTableView.m; sourceTree = "<group>"; };
 		65E276421AFE491F008651A9 /* RateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E276461AFE491F008651A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E276471AFE491F008651A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,7 +89,6 @@
 		651A0B361B05EBD400105D97 /* AnnuityVC */ = {
 			isa = PBXGroup;
 			children = (
-				657B4B091B0754CA006DB318 /* View */,
 				651A0B371B05F35400105D97 /* AnnuityVC.h */,
 				651A0B381B05F35400105D97 /* AnnuityVC.m */,
 			);
@@ -127,16 +123,6 @@
 				656CEB5B1B395FC0009C58CB /* NewBuilder.m */,
 			);
 			path = Builder;
-			sourceTree = "<group>";
-		};
-		657B4B091B0754CA006DB318 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				657B4B0A1B0754E1006DB318 /* AnnuityTableView.h */,
-				657B4B0B1B0754E1006DB318 /* AnnuityTableView.m */,
-			);
-			name = View;
-			path = ../../../../../QunarTest/QunarTest9/QunarTest9/Class/Rate/Rate/VC/AnnuityVC/View;
 			sourceTree = "<group>";
 		};
 		65E276391AFE491F008651A9 = {
@@ -312,7 +298,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				656CEB5C1B395FC0009C58CB /* NewBuilder.m in Sources */,
-				657B4B0C1B0754E1006DB318 /* AnnuityTableView.m in Sources */,
 				6536193C1B032E6800D79F4A /* BuilderManager.m in Sources */,
 				65E2764E1AFE491F008651A9 /* ViewController.m in Sources */,
 				6536193F1B03348700D79F4A /* AnnuityBuilder.m in Sources */,
