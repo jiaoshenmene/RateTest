@@ -16,12 +16,12 @@
  
     int year = 1;
     
-    float inputMoney = 1.5;
+    float inputMoney = 2;
     
-    float inputMoneyFirst = 120;
+    float inputMoneyFirst = 147;
     float result = 0.0;
-    for (int i = 0; i < 30; i++) {
-        result = [self personAnnuityDynamicYear:year stopInputYear:5 rate:0.17 inputMoney:inputMoney inputMoneyFirst:inputMoneyFirst];
+    for (int i = 0; i < 28; i++) {
+        result = [self personAnnuityDynamicYear:year stopInputYear:2 rate:0.15 inputMoney:inputMoney inputMoneyFirst:inputMoneyFirst];
         year++;
     }
 }
